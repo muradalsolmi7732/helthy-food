@@ -1,0 +1,164 @@
+/* --------------------------------- */
+/* header  */
+/* --------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    color: rgb(83, 30, 30);
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: inline-block;
+}
+.row{
+    max-width: 1800px;
+    margin: 0 outo;
+}
+section{
+    padding: 80px;
+
+}
+header{
+    background-image: linear-gradient(#ffffff20, #bdea4b83), url(../img/hh.jpeg);
+    height: 100vmax;
+    background-size: 100vmax;
+    height: 100vh;
+    
+}
+h1{
+    font-size: 350%;
+    margin-bottom: 40px;
+    word-spacing: 15px;
+}
+h2{
+    font-size: 180%;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h3{
+    padding-bottom: 10px;
+   
+}
+h2::after{
+    display: block;
+    content: "";
+    border-bottom: 3px  solid #ff4d4d;
+    width: 150px;
+    height: 20px;
+    margin: 30px auto 0 auto;
+
+}
+/* --------------------------------- */
+/* hero-text-box*/
+/* --------------------------------- */
+
+.hero-text-box{
+    width: 1500px;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.5s, color 0.3s;
+
+}
+.btn-a:link,
+.btn-a:visited {
+    background-color: #ff7979;
+    border: 1px solid #ff7979;
+    margin-left: 30px;
+    color: #fff;
+}
+.btn-a:hover,
+.btn-a:active {
+    background-color:#ff4d4d ;
+
+}
+.btn-b:link,
+.btn-b:visited {
+    border: 1px solid #ff7979;
+    color: #000000;
+}
+.btn-b:hover,
+.btn-b:active {
+    background-color:#ff4d4d ;
+}
+.cake{
+    width: 100px;
+    height: auto;
+    float: left;
+    /* padding: 30px; */
+    margin-right: 20%;
+}
+.min{
+    float: right;
+    font-size: 200%;
+    margin: 50px 50px 50px 50px;
+   
+}
+.min il {
+    display: inline-block;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px #00000000 solid;
+}
+.min il:hover{
+    border-bottom: 5px #ff7979 solid;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+} 
+.min il a:link,
+.min il a:visited{
+    text-decoration: none;
+    color: rgb(144, 216, 35);
+}
+/* --------------------------------- */
+/* hero-text-box*/
+/* --------------------------------- */
+.text{
+    line-height: 145%;
+    text-align: center;
+    margin: 0 auto 30px auto;
+}
+/* --------------------------------- */
+/* hero-text-box*/
+/* --------------------------------- */
+
+.cards{
+    display: flex;
+    justify-content:space-between ;
+}
+.card{
+    
+    width: 20%;
+}
+.card ion-icon{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    fill: #61ff59;
+    color: #a2e10f;
+    
+
+}
+.card p{
+    font-size: 90%;
+    line-height: 1.5;
+    width: 95%;
+
+}
+
+    
